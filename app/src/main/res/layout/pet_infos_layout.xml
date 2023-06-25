@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/pet"
+            android:layout_width="350dp"
+            android:layout_height="190dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            android:background="@drawable/list_pet_background"
+            tools:ignore="MissingConstraints"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="120dp"
+                android:src="@drawable/petlayout"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/petname"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/pet_name"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/petage"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/age"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"/>
+
+                <TextView
+                    android:id="@+id/petweight"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/weight"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"/>
+
+                <TextView
+                    android:id="@+id/petrfig"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/rfid"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"/>
+
+                <TextView
+                    android:id="@+id/petrace"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/race"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"/>
+
+                <TextView
+                    android:id="@+id/pettype"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/type"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pet_name"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/pet_name"
+                    android:textAlignment="center"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pet_age"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/age"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/pet_weight"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/weight"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/pet_rfig"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/rfid"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/pet_race"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/race"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/pet_type"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/cabin"
+                    android:text="@string/type"
+                    android:textColor="@color/light_orange"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/feedPetBttn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="1dp"
+                android:fontFamily="@font/cabin"
+                android:text="@string/feed"
+                android:textAllCaps="false"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

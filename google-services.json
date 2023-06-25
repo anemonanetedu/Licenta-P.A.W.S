@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "318227897630",
+    "project_id": "petfeeder-6c509",
+    "storage_bucket": "petfeeder-6c509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318227897630:android:9f935d203c25671de7bd0f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318227897630-6t93926ubh913ckqfmv10ae352jihele.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "2856cf449429e83f8176fc680690b2e434408ba7"
+          }
+        },
+        {
+          "client_id": "318227897630-2llip7b4jucipdc3b4ne63232p01fcrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJGn6HcAnziuD2yLlMKbb4o-412AljMt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318227897630-2llip7b4jucipdc3b4ne63232p01fcrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

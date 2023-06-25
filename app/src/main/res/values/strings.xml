@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Pet Feeder Helper</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lastname">Nume</string>
+    <string name="firstname">Prenume</string>
+    <string name="email">Email</string>
+    <string name="username">Nume de utilizator</string>
+    <string name="password">Parolă</string>
+    <string name="signup">ÎNREGISTRARE</string>
+    <string name="signin">LOGARE</string>
+    <string name="addpet">Adaugă un animal de companie</string>
+    <string name="seepets">Vezi animalele tale de companie</string>
+    <string name="guide">Ghid pentru hrănirea animalelor de companie</string>
+    <string name="logout1">Părăseşte aplicaţia</string>
+    <string name="welcome">Bine ai revenit!</string>
+    <string name="pet_type">Selectaţi tipul animalului</string>
+    <string name="pet_name">Nume</string>
+    <string name="age">Vârstă</string>
+    <string name="weight">Greutate</string>
+    <string name="rfid">Etichetă RFID</string>
+    <string name="race">Rasă</string>
+    <string name="add">Adaugă</string>
+    <string name="addinfos">Adaugă informaţii despre pet-ul tău</string>
+    <string name="guideText">Ghid pentru hrănirea animalului tău de companie în funcţie de vârstă</string>
+    <string name="toHomePage">Meniul principal</string>
+    <string name="logout2">Deconectare</string>
+    <string name="activities">Activităţile tale</string>
+    <string name="open">Deschide meniul</string>
+    <string name="close">Închide meniul</string>
+    <string name="toHomePage2">Către meniul principal</string>
+    <string name="hello">Salut!</string>
+    <string name="feed">Hrăneşte</string>
+    <string name="thankyou">Mulţumesc!</string>
+    <string name="type">Tip</string>
+</resources>
